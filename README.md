@@ -6,7 +6,7 @@ This project aims at setting up the content management app **DRUPAL** by setting
 This project is developed using **Docker** using Red Hat Enterprise Linux 8 as its host. Docker, launched in 2013 has become the standard for containerization technology. Docker technology has made the life of developers so simple. Using docker-compose, the setting up of the entire infrastructure including database launch is done using just one command.
 
 **SET-UP REQUIREMENTS**
- *Following are the pre-requisites to set-up the infrastructure:
+*Following are the pre-requisites to set-up the infrastructure:*
 1. Docker needs to be installed on our base OS and we need to start the docker services.
    To start docker services permanently ```systemctl enable docker```.
 2. We need to install the docker-compose software inorder to use it. To install docker- compose, follow the steps: * *Go to google --> In the search box search ```docker compose rpm``` --> Choose `Install Docker compose` --> Based on the base OS select whether Mac, Windows or Linux etc. --> Copy the command and paste it in the terminal of the base OS.
